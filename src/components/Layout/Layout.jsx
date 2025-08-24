@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 function Layout() {
   return (
-    <div className="relative bg-gradient-to-b from-[#1c1629] via-[#271E37] to-black min-h-screen flex flex-col overflow-hidden">
+    <div className="relative bg-gradient-to-b from-[#1c1629] via-[#271E37] to-black min-h-screen flex flex-col overflow-hidden text-gray-200">
       {/* Background Layer */}
       
 
