@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import Layout from './components/Layout/Layout.jsx'
 import Apod from './components/Apod.jsx'
@@ -14,6 +13,7 @@ import Opportunity from './components/Rovers/Opportunity.jsx'
 import Spirit from './components/Rovers/Spirit.jsx'
 import Asteroid from './components/Asteroid.jsx'
 import SpaceWeather from './components/SpaceWeather.jsx'
+import Error from './Error.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout />}>
@@ -28,7 +28,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     </Route>
     <Route path='asteroid' element={<Asteroid/>}/>
     <Route path='space_weather' element={<SpaceWeather/>}/>
-    <Route path='*' element={<h1 className='text-4xl font-bold text-center'>404 Not Found</h1>} />
+    <Route path='*' element={<Error/>} />
   </Route>
 ))
 
