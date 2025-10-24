@@ -12,7 +12,7 @@ function Home() {
                     <h1 className='text-5xl font-bold'>AstroView</h1>
                     <p className='text-xl mt-1'>- The cosmos, decoded for you.</p>
                     <p className='w-150 mt-6 text-lg'>Discover the cosmos like never before. AstroView brings you NASA’s Astronomy Picture of the Day, real-time asteroid data, epic space weather alerts, and breathtaking images from the Mars rovers — all in one place.</p>
-                    <button className="bg-[#9d85e6] font-bold text-black p-3 hover:bg-black hover:text-white rounded-4xl mt-6" onClick={()=>{navigate("/apod")}}>Explore!</button>
+                    <button className="bg-[#9d85e6] font-bold text-black p-3 hover:bg-black hover:text-white rounded-4xl mt-6" onClick={()=>{navigate("/earth")}}>Explore!</button>
                 </div>
                 <div>
                     <img src='/Astronaut.jpg' alt="img" className='w-100 rounded-2xl' />
