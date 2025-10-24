@@ -20,7 +20,6 @@ function Home() {
             </div>
             <h1 className='mt-14 flex items-start h-fit w-full text-3xl ml-40'>Features</h1>
             <div className='flex flex-row ml-8 gap-4 mt-4 mb-4'>
-               //<Cards title={"Daily Space Images"} description={"Witness the universe through NASA's APOD."} imageUrl={"https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg"} />
                 <Cards title={"Near-Earth Objects"} description={"Keep a eye on rocks flying close to planets. "} imageUrl={"https://d.newsweek.com/en/full/2292471/asteroid.webp?w=790&f=461c2a02efe3a443797557d60cc243bf"}/>
                 <Cards title={"Space Weather"} description={"Stay infomed about CME, flares, storms ,etc."} imageUrl={"https://images.pexels.com/photos/87611/sun-fireball-solar-flare-sunlight-87611.jpeg"}/>
                 <Cards title={"Mars Rover Feed"} description={"Explore the red planet through the eyes of NASA's rovers."} imageUrl={"https://cdn.britannica.com/93/93293-050-92D12F74/Artist-conception-Mars-Exploration-Rover.jpg"}/>
