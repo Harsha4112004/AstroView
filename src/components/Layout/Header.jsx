@@ -9,7 +9,7 @@ function Header() {
         logoAlt="Company Logo"
         items={[
           { label: 'Home', href: '/' },
-          { label: 'Apod', href: '/apod' },
+         // { label: 'Apod', href: '/apod' },
           { label: 'Earth', href: '/earth' },
           { label: 'Mars Rover', href: '/mars_rover' },
           { label: 'Asteroids', href: '/asteroid' },
