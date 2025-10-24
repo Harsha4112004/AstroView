@@ -18,7 +18,7 @@ import Error from './Error.jsx'
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout />}>
     <Route path='' element={<Home />} />
-    <Route path='apod' element={<Apod />} />
+   // <Route path='apod' element={<Apod />} />
     <Route path='earth' element={<Earth />} />
     <Route path='mars_rover' element={<RoverLayout />}>
       <Route path='' element={<Rover />} />
