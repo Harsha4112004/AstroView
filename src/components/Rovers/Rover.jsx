@@ -1,4 +1,3 @@
-```jsx
 import React from 'react';
 import Rovercards from '../Asthetics/Rovercards';
 
@@ -54,4 +53,3 @@ function Rover() {
 }
 
 export default Rover;
-```
